@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="ChatGPT Image Apr 9, 2025, 04_41_58 AM.png" alt="CSE 1" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="ChatGPT Image Apr 9, 2025, 04_41_58 AM.png" alt="CSE 2" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="ChatGPT Image Apr 9, 2025, 04_41_58 AM.png" alt="IT 1" class="gallery-image">
+        </div>
+        <div class="image-container">
+            <img src="ChatGPT Image Apr 9, 2025, 04_41_58 AM.png" alt="IT 2" class="gallery-image">
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modal-image" class="modal-image" src="" alt="">
+            <div class="modal-controls">
+                <button id="prev" class="nav-btn">Prev</button>
+                <button id="next" class="nav-btn">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
